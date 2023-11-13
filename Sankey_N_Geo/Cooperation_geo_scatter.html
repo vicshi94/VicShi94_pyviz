@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/maps/world.js"></script>
+
+</head>
+<body >
+    <div id="e759b553e6804a208385090471d2b2ca" class="chart-container" style="width:900px; height:500px; "></div>
+    <script>
+        var chart_e759b553e6804a208385090471d2b2ca = echarts.init(
+            document.getElementById('e759b553e6804a208385090471d2b2ca'), 'white', {renderer: 'canvas'});
+        var option_e759b553e6804a208385090471d2b2ca = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "color": [
+        "white",
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
+    ],
+    "series": [
+        {
+            "type": "effectScatter",
+            "name": "geo",
+            "coordinateSystem": "geo",
+            "showEffectOn": "render",
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            },
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "CN",
+                    "value": [
+                        104.999927,
+                        35.000074,
+                        97
+                    ]
+                },
+                {
+                    "name": "US",
+                    "value": [
+                        -100.445882,
+                        39.7837304,
+                        27
+                    ]
+                },
+                {
+                    "name": "HK",
+                    "value": [
+                        114.1849161,
+                        22.350627,
+                        7
+                    ]
+                },
+                {
+                    "name": "GB",
+                    "value": [
+                        -3.2765753,
+                        54.7023545,
+                        5
+                    ]
+                },
+                {
+                    "name": "SG",
+                    "value": [
+                        103.8194992,
+                        1.357107,
+                        4
+                    ]
+                },
+                {
+                    "name": "NL",
+                    "value": [
+                        4.7599085,
+                        52.3104607,
+                        3
+                    ]
+                },
+                {
+                    "name": "MY",
+                    "value": [
+                        102.2656823,
+                        4.5693754,
+                        3
+                    ]
+                },
+                {
+                    "name": "AT",
+                    "value": [
+                        14.12456,
+                        47.59397,
+                        3
+                    ]
+                },
+                {
+                    "name": "CA",
+                    "value": [
+                        -107.991707,
+                        61.0666922,
+                        2
+                    ]
+                },
+                {
+                    "name": "PK",
+                    "value": [
+                        71.247499,
+                        30.3308401,
+                        2
+                    ]
+                },
+                {
+                    "name": "JP",
+                    "value": [
+                        139.2394179,
+                        36.5748441,
+                        1
+                    ]
+                },
+                {
+                    "name": "BR",
+                    "value": [
+                        -40.4808697,
+                        -9.4690789,
+                        1
+                    ]
+                },
+                {
+                    "name": "AU",
+                    "value": [
+                        134.755,
+                        -24.7761086,
+                        1
+                    ]
+                },
+                {
+                    "name": "PT",
+                    "value": [
+                        -8.1353519,
+                        39.6621648,
+                        1
+                    ]
+                },
+                {
+                    "name": "MO",
+                    "value": [
+                        10.935960870530739,
+                        44.5384728,
+                        1
+                    ]
+                }
+            ],
+            "label": {
+                "show": false,
+                "margin": 8
+            }
+        },
+        {
+            "type": "lines",
+            "name": "geo",
+            "coordinateSystem": "geo",
+            "zlevel": 3,
+            "progressive": 400,
+            "progressiveThreshold": 3000,
+            "effect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4,
+                "color": "blue",
+                "symbol": "arrow",
+                "symbolSize": 3
+            },
+            "symbol": [
+                "none",
+                "arrow"
+            ],
+            "polyline": false,
+            "large": false,
+            "largeThreshold": 2000,
+            "symbolSize": 12,
+            "data": [
+                {
+                    "name": "HK->CN",
+                    "coords": [
+                        [
+                            114.1849161,
+                            22.350627
+                        ],
+                        [
+                            104.999927,
+                            35.000074
+                        ]
+                    ]
+                },
+                {
+                    "name": "HK->US",
+                    "coords": [
+                        [
+                            114.1849161,
+                            22.350627
+                        ],
+                        [
+                            -100.445882,
+                            39.7837304
+                        ]
+                    ]
+                },
+                {
+                    "name": "HK->HK",
+                    "coords": [
+                        [
+                            114.1849161,
+                            22.350627
+                        ],
+                        [
+                            114.1849161,
+                            22.350627
+                        ]
+                    ]
+                },
+                {
+                    "name": "HK->GB",
+                    "coords": [
+                        [
+                            114.1849161,
+                            22.350627
+                        ],
+                        [
+                            -3.2765753,
+                            54.7023545
+                        ]
+                    ]
+                },
+                {
+                    "name": "HK->SG",
+                    "coords": [
+                        [
+                            114.1849161,
+                            22.350627
+                        ],
+                        [
+                            103.8194992,
+                            1.357107
+                        ]
+                    ]
+                },
+                {
+                    "name": "HK->NL",
+                    "coords": [
+                        [
+                            114.1849161,
+                            22.350627
+                        ],
+                        [
+                            4.7599085,
+                            52.3104607
+                        ]
+                    ]
+                },
+                {
+                    "name": "HK->MY",
+                    "coords": [
+                        [
+                            114.1849161,
+                            22.350627
+                        ],
+                        [
+                            102.2656823,
+                            4.5693754
+                        ]
+                    ]
+                },
+                {
+                    "name": "HK->AT",
+                    "coords": [
+                        [
+                            114.1849161,
+                            22.350627
+                        ],
+                        [
+                            14.12456,
+                            47.59397
+                        ]
+                    ]
+                },
+                {
+                    "name": "HK->CA",
+                    "coords": [
+                        [
+                            114.1849161,
+                            22.350627
+                        ],
+                        [
+                            -107.991707,
+                            61.0666922
+                        ]
+                    ]
+                },
+                {
+                    "name": "HK->PK",
+                    "coords": [
+                        [
+                            114.1849161,
+                            22.350627
+                        ],
+                        [
+                            71.247499,
+                            30.3308401
+                        ]
+                    ]
+                },
+                {
+                    "name": "HK->JP",
+                    "coords": [
+                        [
+                            114.1849161,
+                            22.350627
+                        ],
+                        [
+                            139.2394179,
+                            36.5748441
+                        ]
+                    ]
+                },
+                {
+                    "name": "HK->BR",
+                    "coords": [
+                        [
+                            114.1849161,
+                            22.350627
+                        ],
+                        [
+                            -40.4808697,
+                            -9.4690789
+                        ]
+                    ]
+                },
+                {
+                    "name": "HK->AU",
+                    "coords": [
+                        [
+                            114.1849161,
+                            22.350627
+                        ],
+                        [
+                            134.755,
+                            -24.7761086
+                        ]
+                    ]
+                },
+                {
+                    "name": "HK->PT",
+                    "coords": [
+                        [
+                            114.1849161,
+                            22.350627
+                        ],
+                        [
+                            -8.1353519,
+                            39.6621648
+                        ]
+                    ]
+                },
+                {
+                    "name": "HK->MO",
+                    "coords": [
+                        [
+                            114.1849161,
+                            22.350627
+                        ],
+                        [
+                            10.935960870530739,
+                            44.5384728
+                        ]
+                    ]
+                }
+            ],
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0.2,
+                "type": "solid"
+            },
+            "label": {
+                "show": false,
+                "margin": 8
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "geo",
+                "geo"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderWidth": 1,
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "formatter": function (params) {        return params.name + ' : ' + params.value[2];    },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "title": [
+        {
+            "show": true,
+            "text": "Cooperation Network",
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "continuous",
+        "min": 0,
+        "max": 100,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "hoverLink": true,
+        "orient": "vertical",
+        "padding": 5,
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 140,
+        "borderWidth": 0
+    },
+    "geo": {
+        "map": "world",
+        "roam": true,
+        "aspectScale": 0.75,
+        "scaleLimit": {
+            "min": 1,
+            "max": 10
+        },
+        "nameProperty": "name",
+        "selectedMode": false,
+        "itemStyle": {
+            "color": "#f0f0f0",
+            "borderColor": "#111"
+        },
+        "emphasis": {}
+    }
+};
+        chart_e759b553e6804a208385090471d2b2ca.setOption(option_e759b553e6804a208385090471d2b2ca);
+    </script>
+</body>
+</html>
